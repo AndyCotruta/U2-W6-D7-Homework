@@ -27,3 +27,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+.tapet-images {
+  height: 100%;
+  width: 100%;
+}
