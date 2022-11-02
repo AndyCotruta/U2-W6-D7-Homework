@@ -23,10 +23,6 @@
   justify-content: center;
 }
 
-.tapet-images {
-  flex-wrap: wrap;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
