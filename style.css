@@ -1,0 +1,33 @@
+.card-img {
+  opacity: 40%;
+}
+
+.table {
+  color: white;
+}
+
+.img-fluid {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+.favourite {
+  font-size: clamp(0.75rem, 1.25vw, 1.5rem);
+}
+
+.fav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tapet-images {
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
