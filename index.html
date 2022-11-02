@@ -32,12 +32,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#favorite"
                 >Favorites <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hall of Shame</a>
+              <a class="nav-link" href="#hall-of-shame">Hall of Shame</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -47,13 +47,15 @@
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                More
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#top-album">Top Album</a>
+                <a class="dropdown-item" href="#favorite-artist"
+                  >Favorite Artist</a
+                >
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#tapet">Tapet</a>
               </div>
             </li>
           </ul>
@@ -71,6 +73,7 @@
         </div>
       </nav>
       <div class="container">
+        <a id="favorite"></a>
         <h2 class="mt-4">Favorite Albums</h2>
         <div class="row">
           <div class="col-sm-6 col-md-4 col-xl-3 mt-2">
@@ -189,6 +192,7 @@
       </div>
     </div>
     <div class="container">
+      <a id="top-album"></a>
       <div class="card bg-dark text-white mt-5">
         <img
           src="https://i.pinimg.com/originals/c9/89/19/c98919abf17fd86146255f74d04ec113.jpg"
@@ -267,6 +271,7 @@
       </div>
     </div>
     <div class="container">
+      <a id="hall-of-shame"></a>
       <h2 class="mt-4">Worst Albums</h2>
       <div class="row">
         <div class="col-sm-6 col-md-4 col-xl-3 mt-2">
@@ -384,6 +389,7 @@
       </div>
     </div>
     <div class="container mt-4">
+      <a id="favorite-artist"></a>
       <h2>My favourite Artist</h2>
       <div class="row">
         <div class="col-sm-6">
@@ -417,6 +423,7 @@
       </div>
     </div>
     <div class="container mt-4">
+      <a id="tapet"></a>
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
           <img src="https://picsum.photos/200" alt="" class="tapet-images" />
